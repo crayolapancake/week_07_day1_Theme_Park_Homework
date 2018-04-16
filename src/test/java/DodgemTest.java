@@ -1,7 +1,8 @@
-import AttractionStuff.Attraction;
 import AttractionStuff.Dodgem;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class DodgemTest {
 
@@ -13,8 +14,7 @@ public class DodgemTest {
     }
 
     @Test
-    @Test
     public void getName() {
-        assertEqual("Jammy Dodgems", dodgem.getName());
+        assertEquals("Jammy Dodgems", dodgem.getName());
     }
 }
