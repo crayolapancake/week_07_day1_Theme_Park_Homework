@@ -1,6 +1,9 @@
 package AttractionStuff;
 
-public abstract class Attraction {
+
+import Interfaces.IEnjoyable;
+
+public abstract class Attraction implements IEnjoyable {
     private String name;
     private int funRating;
 
@@ -13,7 +16,27 @@ public abstract class Attraction {
         return this.name;
     }
 
-    public int funRating() {
+    public int getFunRating(){
         return this.funRating;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
